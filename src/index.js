@@ -34,6 +34,7 @@ app.get("/tasks", (req, res) => {
 app.put("/tasks/:id", (req, res) => {
     const { id } = req.params
     const { title, description } = req.body
+    const date = new Date()
 
     const tasks = database.find(data => {
         return data.id === id
@@ -50,6 +51,7 @@ app.put("/tasks/:id", (req, res) => {
         if(data.id === id){
             data.title = title
             data.description = description
+            data.updated_at = `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`
         }
         return data
     }) 
