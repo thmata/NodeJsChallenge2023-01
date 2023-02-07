@@ -8,9 +8,9 @@ A API deve conter as seguintes funcionalidades:
 
 - [X] Criação de uma task
 - [X] Listagem de todas as tasks
-- [ ] Atualização de uma task pelo `id`
-- [ ] Remover uma task pelo `id`
-- [ ] Marcar pelo `id` uma task como completa
+- [X] Atualização de uma task pelo `id`
+- [X] Remover uma task pelo `id`
+- [X] Marcar pelo `id` uma task como completa
 - [ ] E o verdadeiro desafio: Importação de tasks em massa por um arquivo CSV
 
 ## REGRAS DE NEGÓCIO
