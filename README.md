@@ -16,7 +16,7 @@ A API deve conter as seguintes funcionalidades:
 ## REGRAS DE NEGÓCIO
 Antes das rotas, vamos entender qual a estrutura (propriedades) que uma task deve ter:
 
-- `id` - Identificador único de cada task
+- `id` - Identificador único de cada task.
 - `title` - Título da task
 - `description` - Descrição detalhada da task
 - `completed_at` - Data de quando a task foi concluída. O valor inicial deve ser `null`
